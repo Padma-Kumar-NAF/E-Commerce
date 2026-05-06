@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Order.API/Order.API.csproj" Id="4db56846-0bcf-4dbe-b255-f434d6b9e2a8" />
+  <Project Path="Order.Application/Order.Application.csproj" Id="edfd0335-02e9-4762-a471-94915c1e803a" />
+  <Project Path="Order.Domain/Order.Domain.csproj" Id="a7f00d02-f6e0-49ab-8bcd-a8087f7890d2" />
+  <Project Path="Order.Infrastructure/Order.Infrastructure.csproj" Id="99885a03-0ebd-4c47-983b-8264d7d1adb2" />
+</Solution>

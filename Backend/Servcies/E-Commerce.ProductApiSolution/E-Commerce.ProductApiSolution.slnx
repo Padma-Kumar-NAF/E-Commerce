@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Product.API/Product.API.csproj" Id="4e5279db-dc42-4126-86b5-55330289f49c" />
+  <Project Path="Product.Application/Product.Application.csproj" Id="f2d14b66-4124-44e1-a3c9-1186dab3a1e4" />
+  <Project Path="Product.Domain/Product.Domain.csproj" Id="def3e44a-bd36-4838-83a5-983631ff4955" />
+  <Project Path="Product.Infrastructure/Product.Infrastructure.csproj" Id="743c6464-310a-4d6f-9677-8befb018e6a3" />
+</Solution>
