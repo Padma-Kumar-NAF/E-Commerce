@@ -6,5 +6,6 @@ namespace User.Application.DTOs
 {
     public record LoginResponseDto
     {
+        public bool Success { get; set; }
     }
 }

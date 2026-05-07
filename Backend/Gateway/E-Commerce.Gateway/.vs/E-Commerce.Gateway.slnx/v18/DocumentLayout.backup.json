@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\PK\\E-Commerce\\Gateway\\E-Commerce.Gateway\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\PK\\E-Commerce\\Backend\\Gateway\\E-Commerce.Gateway\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76FD6636-D2E1-48E5-B9ED-F440AF250369}|E-Commerce.Gateway\\E-Commerce.Gateway.csproj|c:\\pk\\e-commerce\\backend\\gateway\\e-commerce.gateway\\e-commerce.gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76FD6636-D2E1-48E5-B9ED-F440AF250369}|E-Commerce.Gateway\\E-Commerce.Gateway.csproj|solutionrelative:e-commerce.gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedHeight": 313,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\PK\\E-Commerce\\Backend\\Gateway\\E-Commerce.Gateway\\E-Commerce.Gateway\\appsettings.json",
+              "RelativeDocumentMoniker": "E-Commerce.Gateway\\appsettings.json",
+              "ToolTip": "C:\\PK\\E-Commerce\\Backend\\Gateway\\E-Commerce.Gateway\\E-Commerce.Gateway\\appsettings.json",
+              "RelativeToolTip": "E-Commerce.Gateway\\appsettings.json",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-07T05:04:54.365Z",
+              "EditorCaption": ""
             }
           ]
         },
