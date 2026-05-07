@@ -1,0 +1,12 @@
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.OrderApiSolution\Order.Domain\bin\Debug\net10.0\Order.Domain.deps.json
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.OrderApiSolution\Order.Domain\bin\Debug\net10.0\Order.Domain.dll
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.OrderApiSolution\Order.Domain\bin\Debug\net10.0\Order.Domain.pdb
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.OrderApiSolution\Order.Domain\obj\Debug\net10.0\Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.OrderApiSolution\Order.Domain\obj\Debug\net10.0\Order.Domain.AssemblyInfoInputs.cache
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.OrderApiSolution\Order.Domain\obj\Debug\net10.0\Order.Domain.AssemblyInfo.cs
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.OrderApiSolution\Order.Domain\obj\Debug\net10.0\Order.Domain.csproj.CoreCompileInputs.cache
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.OrderApiSolution\Order.Domain\obj\Debug\net10.0\Order.Domain.sourcelink.json
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.OrderApiSolution\Order.Domain\obj\Debug\net10.0\Order.Domain.dll
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.OrderApiSolution\Order.Domain\obj\Debug\net10.0\refint\Order.Domain.dll
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.OrderApiSolution\Order.Domain\obj\Debug\net10.0\Order.Domain.pdb
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.OrderApiSolution\Order.Domain\obj\Debug\net10.0\ref\Order.Domain.dll

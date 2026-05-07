@@ -1,10 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Order.Application.Interfaces;
+using Order.Infrastructure.Data;
+using Order.Infrastructure.Repositories;
 
-namespace Order.Infrastructure
+namespace Order.Infrastructure;
+
+public static class DependencyInjection
 {
-    internal class DependencyInjection
+    public static IServiceCollection AddInfrastructure(this IServiceCollection services,IConfiguration configuration)
     {
+        services.AddDbContext<OrderDbContext>(options =>
+            options.UseSqlServer(
+                configuration.GetConnectionString("DefaultConnection")));
+
+        services.AddScoped<IOrderRepository, OrderRepository>();
+
+        return services;
     }
 }

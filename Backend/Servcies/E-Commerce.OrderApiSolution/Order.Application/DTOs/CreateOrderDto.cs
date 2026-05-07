@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace Order.Application.DTOs;
 
-namespace Order.Application.DTOs
+public class CreateOrderDto
 {
-    internal class CreateOrderDto
-    {
-    }
+    public int ProductId { get; set; }
+    public int UserId { get; set; }
+    public decimal Price { get; set; }
 }

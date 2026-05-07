@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Order.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Order.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Order.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Order.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Order.Domain/Order.Domain.csproj",
+      "msbuildProject": "../Order.Domain/Order.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Order.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\PadmaKumar.C\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj": {
+              "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

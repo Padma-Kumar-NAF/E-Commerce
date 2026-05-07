@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Order.Domain.Entities;
 
-namespace Order.Application.Interfaces
+namespace Order.Application.Interfaces;
+
+public interface IOrderRepository
 {
-    internal interface IOrderRepository
-    {
-    }
+    Task Create(OrderEntity order);
+
+    Task<List<OrderEntity>> GetAll();
 }
