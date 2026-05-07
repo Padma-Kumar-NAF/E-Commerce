@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E17B6B-560C-46BF-92DA-761EBF7979EB}|User.Infrastructure\\User.Infrastructure.csproj|c:\\pk\\e-commerce\\backend\\servcies\\e-commerce.userapisolution\\user.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E17B6B-560C-46BF-92DA-761EBF7979EB}|User.Infrastructure\\User.Infrastructure.csproj|solutionrelative:user.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DAAE9B3-9AC9-4C55-9F3D-BAAE4361708B}|User.Domain\\User.Domain.csproj|c:\\pk\\e-commerce\\backend\\servcies\\e-commerce.userapisolution\\user.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DAAE9B3-9AC9-4C55-9F3D-BAAE4361708B}|User.Domain\\User.Domain.csproj|solutionrelative:user.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D746386-A3F8-4B5E-BDB9-7CE8347D5F1C}|User.Application\\User.Application.csproj|c:\\pk\\e-commerce\\backend\\servcies\\e-commerce.userapisolution\\user.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D746386-A3F8-4B5E-BDB9-7CE8347D5F1C}|User.Application\\User.Application.csproj|solutionrelative:user.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -22,50 +9,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 313,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "User.Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\Class1.cs",
-              "RelativeToolTip": "User.Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:25:11.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "User.Domain\\Class1.cs",
-              "ToolTip": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\Class1.cs",
-              "RelativeToolTip": "User.Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:24:48.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "User.Application\\Class1.cs",
-              "ToolTip": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\Class1.cs",
-              "RelativeToolTip": "User.Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:24:29.211Z",
-              "EditorCaption": ""
             }
           ]
         },

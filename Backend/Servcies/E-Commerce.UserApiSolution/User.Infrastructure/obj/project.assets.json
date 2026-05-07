@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "User.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "User.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/User.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/User.Application.dll": {}
+        }
+      },
+      "User.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/User.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/User.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "User.Application/1.0.0": {
+      "type": "project",
+      "path": "../User.Application/User.Application.csproj",
+      "msbuildProject": "../User.Application/User.Application.csproj"
+    },
+    "User.Domain/1.0.0": {
+      "type": "project",
+      "path": "../User.Domain/User.Domain.csproj",
+      "msbuildProject": "../User.Domain/User.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "User.Application >= 1.0.0",
+      "User.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\PadmaKumar.C\\.nuget\\packages\\": {},
@@ -38,7 +76,14 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj": {
+              "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj"
+            },
+            "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj": {
+              "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
