@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using User.Application.DTOs;
+﻿using User.Application.DTOs;
 
 namespace User.Application.Interfaces
 {
     public interface IAuthService
     {
-        Task<bool> Login(LoginRequestDto dto);
+        Task<LoginResponseDto?> Login(LoginRequestDto request);
     }
 }

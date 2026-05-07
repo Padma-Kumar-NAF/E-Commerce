@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace User.Application.DTOs
+﻿namespace User.Application.DTOs
 {
     public record LoginResponseDto
     {
-        public bool Success { get; set; }
+        public string Token { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public DateTime ExpiresAt { get; set; }
     }
 }

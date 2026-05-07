@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using User.Application.DTOs;
 using User.Application.Interfaces;
@@ -21,12 +21,20 @@ namespace User.API.Controllers
         {
             var result = await _service.Login(dto);
 
-            if (!result)
-            {
+            if (result is null)
                 return Unauthorized("Invalid credentials");
-            }
 
-            return Ok("Login Success");
+            return Ok(result);
         }
+
+        //[HttpGet("me")]
+        //[Authorize]
+        //public IActionResult GetCurrentUser()
+        //{
+        //    var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+        //    var email = User.FindFirst(System.Security.Claims.ClaimTypes.Email)?.Value;
+
+        //    return Ok(new { UserId = userId, Email = email });
+        //}
     }
 }

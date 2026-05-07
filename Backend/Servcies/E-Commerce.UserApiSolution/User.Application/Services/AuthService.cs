@@ -1,31 +1,37 @@
 ﻿using User.Application.DTOs;
 using User.Application.Interfaces;
 
-namespace Auth.Application.Services;
-
-public class AuthService : IAuthService
+namespace Auth.Application.Services
 {
-    private readonly IUserRepository _repository;
-
-    public AuthService(IUserRepository repository)
+    public class AuthService : IAuthService
     {
-        _repository = repository;
-    }
+        private readonly IUserRepository _repository;
+        private readonly IJwtTokenGenerator _jwtTokenGenerator;
 
-    public async Task<bool> Login(LoginRequestDto dto)
-    {
-        var user = await _repository.GetByEmail(dto.Email);
-
-        if (user == null)
+        public AuthService(IUserRepository repository, IJwtTokenGenerator jwtTokenGenerator)
         {
-            return false;
+            _repository = repository;
+            _jwtTokenGenerator = jwtTokenGenerator;
         }
 
-        if (user.Password != dto.Password)
+        public async Task<LoginResponseDto?> Login(LoginRequestDto dto)
         {
-            return false;
-        }
+            var user = await _repository.GetByEmail(dto.Email);
 
-        return true;
+            if (user == null)
+                return null;
+
+            if (user.Password != dto.Password)
+                return null;
+
+            var token = _jwtTokenGenerator.GenerateToken(user);
+
+            return new LoginResponseDto
+            {
+                Token = token,
+                Email = user.Email,
+                ExpiresAt = DateTime.UtcNow.AddMinutes(60)
+            };
+        }
     }
 }

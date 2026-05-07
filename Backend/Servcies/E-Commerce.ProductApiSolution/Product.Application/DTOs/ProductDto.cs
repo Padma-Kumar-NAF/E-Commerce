@@ -6,5 +6,6 @@ namespace Product.Application.DTOs
 {
     public class ProductDto
     {
+
     }
 }
