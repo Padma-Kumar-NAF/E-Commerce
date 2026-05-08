@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\PK\\E-Commerce\\Backend\\Gateway\\E-Commerce.Gateway\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E7F2944-C10E-1CC5-D0A7-AA9333243DA4}|E-Commerce.Gateway\\E-Commerce.Gateway.csproj|c:\\pk\\e-commerce\\backend\\gateway\\e-commerce.gateway\\e-commerce.gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9E7F2944-C10E-1CC5-D0A7-AA9333243DA4}|E-Commerce.Gateway\\E-Commerce.Gateway.csproj|solutionrelative:e-commerce.gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9E7F2944-C10E-1CC5-D0A7-AA9333243DA4}|E-Commerce.Gateway\\E-Commerce.Gateway.csproj|c:\\pk\\e-commerce\\backend\\gateway\\e-commerce.gateway\\e-commerce.gateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E7F2944-C10E-1CC5-D0A7-AA9333243DA4}|E-Commerce.Gateway\\E-Commerce.Gateway.csproj|solutionrelative:e-commerce.gateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\PK\\E-Commerce\\Backend\\Gateway\\E-Commerce.Gateway\\E-Commerce.Gateway\\appsettings.json",
-              "RelativeDocumentMoniker": "E-Commerce.Gateway\\appsettings.json",
-              "ToolTip": "C:\\PK\\E-Commerce\\Backend\\Gateway\\E-Commerce.Gateway\\E-Commerce.Gateway\\appsettings.json",
-              "RelativeToolTip": "E-Commerce.Gateway\\appsettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEcAAAAvAAAAAAAAAA==",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\PK\\E-Commerce\\Backend\\Gateway\\E-Commerce.Gateway\\E-Commerce.Gateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "E-Commerce.Gateway\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\PK\\E-Commerce\\Backend\\Gateway\\E-Commerce.Gateway\\E-Commerce.Gateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "E-Commerce.Gateway\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-07T06:30:35.779Z",
+              "WhenOpened": "2026-05-08T06:29:41.43Z",
               "EditorCaption": ""
             }
           ]

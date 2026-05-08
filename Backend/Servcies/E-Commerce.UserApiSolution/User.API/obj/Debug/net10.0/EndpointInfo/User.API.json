@@ -36,10 +36,10 @@
         }
       }
     },
-    "/secrets": {
+    "/api/Auth/me": {
       "get": {
         "tags": [
-          "User.API"
+          "Auth"
         ],
         "responses": {
           "200": {
@@ -70,9 +70,6 @@
   "tags": [
     {
       "name": "Auth"
-    },
-    {
-      "name": "User.API"
     }
   ]
 }

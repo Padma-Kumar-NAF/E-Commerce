@@ -27,14 +27,14 @@ namespace User.API.Controllers
             return Ok(result);
         }
 
-        //[HttpGet("me")]
-        //[Authorize]
-        //public IActionResult GetCurrentUser()
-        //{
-        //    var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
-        //    var email = User.FindFirst(System.Security.Claims.ClaimTypes.Email)?.Value;
+        [HttpGet("me")]
+        [Authorize]
+        public IActionResult GetCurrentUser()
+        {
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            var email = User.FindFirst(System.Security.Claims.ClaimTypes.Email)?.Value;
 
-        //    return Ok(new { UserId = userId, Email = email });
-        //}
+            return Ok(new { UserId = userId, Email = email });
+        }
     }
 }
