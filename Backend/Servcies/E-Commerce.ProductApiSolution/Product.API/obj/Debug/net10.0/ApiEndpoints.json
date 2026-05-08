@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Product.API.Controllers.ProductsController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Product.API.Controllers.StockController",
+    "Method": "CheckStock",
+    "RelativePath": "api/stock/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

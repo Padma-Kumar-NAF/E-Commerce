@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Product.Domain.Entities;
 
-namespace Product.Application.Interfaces
+namespace Product.Application.Interfaces;
+
+public interface IProductRepository
 {
-    public interface IProductRepository
-    {
-    }
+    Task<IEnumerable<ProductEntity>> GetAllProductsAsync();
+
+    Task<int?> GetStockAsync(string productId);
 }

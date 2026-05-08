@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3E17B6B-560C-46BF-92DA-761EBF7979EB}|User.Infrastructure\\User.Infrastructure.csproj|c:\\pk\\e-commerce\\backend\\servcies\\e-commerce.userapisolution\\user.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E17B6B-560C-46BF-92DA-761EBF7979EB}|User.Infrastructure\\User.Infrastructure.csproj|solutionrelative:user.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{90B9814E-8FB4-41C1-9EE0-21D6E3D14CED}|User.API\\User.API.csproj|c:\\pk\\e-commerce\\backend\\servcies\\e-commerce.userapisolution\\user.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{90B9814E-8FB4-41C1-9EE0-21D6E3D14CED}|User.API\\User.API.csproj|solutionrelative:user.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90B9814E-8FB4-41C1-9EE0-21D6E3D14CED}|User.API\\User.API.csproj|c:\\pk\\e-commerce\\backend\\servcies\\e-commerce.userapisolution\\user.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90B9814E-8FB4-41C1-9EE0-21D6E3D14CED}|User.API\\User.API.csproj|solutionrelative:user.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90B9814E-8FB4-41C1-9EE0-21D6E3D14CED}|User.API\\User.API.csproj|c:\\pk\\e-commerce\\backend\\servcies\\e-commerce.userapisolution\\user.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B9814E-8FB4-41C1-9EE0-21D6E3D14CED}|User.API\\User.API.csproj|solutionrelative:user.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,56 +18,37 @@
       "DocumentGroups": [
         {
           "DockedHeight": 313,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "User.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "User.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T09:24:17.907Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "User.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "User.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:42:41.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\appsettings.json",
               "RelativeDocumentMoniker": "User.API\\appsettings.json",
               "ToolTip": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\appsettings.json",
               "RelativeToolTip": "User.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-07T09:24:03.815Z",
+              "WhenOpened": "2026-05-07T19:39:08.733Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\Program.cs",
-              "RelativeDocumentMoniker": "User.API\\Program.cs",
-              "ToolTip": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\Program.cs",
-              "RelativeToolTip": "User.API\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T09:19:18.165Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 87,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

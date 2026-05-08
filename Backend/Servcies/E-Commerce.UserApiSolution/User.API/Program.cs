@@ -1,7 +1,10 @@
-using System.Text;
 using Auth.Application.Services;
+using Azure;
+using Azure.Identity;
+using Azure.Security.KeyVault.Secrets;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using User.Application.Interfaces;
 using User.Application.Settings;
 using User.Infrastructure;
@@ -44,11 +47,40 @@ namespace User.API
 
             builder.Services.AddAuthorization();
 
+            
+
             var app = builder.Build();
 
             app.UseSwagger();
             app.UseSwaggerUI();
             app.UseHttpsRedirection();
+
+            app.MapGet("/secrets", async (IConfiguration configuration) =>
+            {
+                try
+                {
+                    var vaultUri = configuration["KeyVault:VaultUri"];
+
+                    Console.WriteLine($"Vault URI: {vaultUri}");
+
+                    var secretsClient = new SecretClient(
+                        new Uri(vaultUri!),
+                        new DefaultAzureCredential());
+
+                    KeyVaultSecret secret =
+                        await secretsClient.GetSecretAsync("JwtSignature");
+
+                    Console.WriteLine($"Secret Value: {secret.Value}");
+
+                    return Results.Ok(secret.Value);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    return Results.BadRequest(ex.Message);
+                }
+            });
+
             app.UseAuthentication();
             app.UseAuthorization();
 
@@ -57,44 +89,3 @@ namespace User.API
         }
     }
 }
-
-
-//using Auth.Application.Services;
-//using User.Application.Interfaces;
-//using User.Infrastructure;
-
-//namespace User.API
-//{
-//    public class Program
-//    {
-//        public static void Main(string[] args)
-//        {
-//            var builder = WebApplication.CreateBuilder(args);
-//            builder.Services.AddControllers();
-//            builder.Services.AddEndpointsApiExplorer();
-//            builder.Services.AddSwaggerGen();
-//            builder.Services.AddInfrastructure(builder.Configuration);
-//            builder.Services.AddScoped<IAuthService, AuthService>();
-//            builder.Services.AddOpenApi();
-
-//            var app = builder.Build();
-
-//            if (app.Environment.IsDevelopment())
-//            {
-//                app.MapOpenApi();
-//            }
-//            app.UseSwagger();
-
-//            app.UseSwaggerUI();
-
-//            app.UseHttpsRedirection();
-
-//            app.UseAuthorization();
-
-
-//            app.MapControllers();
-
-//            app.Run();
-//        }
-//    }
-//}

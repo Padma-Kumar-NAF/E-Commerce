@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{90B9814E-8FB4-41C1-9EE0-21D6E3D14CED}|User.API\\User.API.csproj|c:\\pk\\e-commerce\\backend\\servcies\\e-commerce.userapisolution\\user.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90B9814E-8FB4-41C1-9EE0-21D6E3D14CED}|User.API\\User.API.csproj|solutionrelative:user.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -14,25 +9,6 @@
       "DocumentGroups": [
         {
           "DockedHeight": 313,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\Program.cs",
-              "RelativeDocumentMoniker": "User.API\\Program.cs",
-              "ToolTip": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\Program.cs",
-              "RelativeToolTip": "User.API\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T09:19:18.165Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 87,
           "SelectedChildIndex": -1,
           "Children": [
             {

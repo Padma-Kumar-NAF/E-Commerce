@@ -11,7 +11,6 @@ public class OrderEntity
 
     public int UserId { get; set; }
 
-    public string ProductName { get; set; } = string.Empty;
 
     public decimal Price { get; set; }
 }

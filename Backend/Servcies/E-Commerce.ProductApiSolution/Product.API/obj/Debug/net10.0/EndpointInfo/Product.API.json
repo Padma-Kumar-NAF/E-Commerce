@@ -1,0 +1,59 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "Product.API | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7244"
+    },
+    {
+      "url": "http://localhost:5118"
+    }
+  ],
+  "paths": {
+    "/api/products": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/stock/{productId}": {
+      "get": {
+        "tags": [
+          "Stock"
+        ],
+        "parameters": [
+          {
+            "name": "productId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Products"
+    },
+    {
+      "name": "Stock"
+    }
+  ]
+}

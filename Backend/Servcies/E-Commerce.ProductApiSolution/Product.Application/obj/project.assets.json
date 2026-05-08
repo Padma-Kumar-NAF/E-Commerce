@@ -71,6 +71,38 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Abstractions/2.3.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
         "type": "package",
         "compile": {
@@ -117,6 +149,22 @@
         },
         "build": {
           "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.ClientModel/1.8.0": {
@@ -166,6 +214,16 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Product.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Product.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Product.Domain.dll": {}
         }
       }
     }
@@ -255,6 +313,32 @@
         "lib/netstandard2.0/Azure.Storage.Queues.xml",
         "lib/netstandard2.1/Azure.Storage.Queues.dll",
         "lib/netstandard2.1/Azure.Storage.Queues.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.3.9": {
+      "sha512": "ULScB/0S9+qvf+yahjR+oQUp0GrvoDHJ9XS5gTqSjLjbjUDnHaJ1s8wo3RJMpaDfb1bawX4OgQM+YmvCUveR4Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.abstractions/2.3.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
+        "microsoft.aspnetcore.http.abstractions.2.3.9.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/2.3.0": {
+      "sha512": "f10WUgcsKqrkmnz6gt8HeZ7kyKjYN30PO7cSic1lPtH7paPtnQqXPOveul/SIPI43PhRD4trttg4ywnrEmmJpA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
@@ -386,6 +470,36 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Primitives/8.0.0": {
+      "sha512": "bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "lib/net462/Microsoft.Extensions.Primitives.dll",
+        "lib/net462/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net7.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net7.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net8.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net8.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.ClientModel/1.8.0": {
       "sha512": "AqRzhn0v29GGGLj/Z6gKq4lGNtvPHT4nHdG5PDJh9IfVjv/nYUVmX11hwwws1vDFeIAzrvmn0dPu8IjLtu6fAw==",
       "type": "package",
@@ -465,12 +579,19 @@
         "system.memory.data.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Product.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Product.Domain/Product.Domain.csproj",
+      "msbuildProject": "../Product.Domain/Product.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "Azure.Storage.Blobs >= 12.27.0",
-      "Azure.Storage.Queues >= 12.25.0"
+      "Azure.Storage.Queues >= 12.25.0",
+      "Microsoft.AspNetCore.Http.Abstractions >= 2.3.9",
+      "Product.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -504,7 +625,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.ProductApiSolution\\Product.Domain\\Product.Domain.csproj": {
+              "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.ProductApiSolution\\Product.Domain\\Product.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -530,6 +655,10 @@
           "Azure.Storage.Queues": {
             "target": "Package",
             "version": "[12.25.0, )"
+          },
+          "Microsoft.AspNetCore.Http.Abstractions": {
+            "target": "Package",
+            "version": "[2.3.9, )"
           }
         },
         "imports": [

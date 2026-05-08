@@ -1,0 +1,16 @@
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\obj\Debug\net10.0\Product.Application.csproj.AssemblyReference.cache
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\obj\Debug\net10.0\Product.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\obj\Debug\net10.0\Product.Application.AssemblyInfoInputs.cache
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\obj\Debug\net10.0\Product.Application.AssemblyInfo.cs
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\obj\Debug\net10.0\Product.Application.csproj.CoreCompileInputs.cache
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\obj\Debug\net10.0\Product.Application.sourcelink.json
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\bin\Debug\net10.0\Product.Application.deps.json
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\bin\Debug\net10.0\Product.Application.dll
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\bin\Debug\net10.0\Product.Application.pdb
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\bin\Debug\net10.0\Product.Domain.dll
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\bin\Debug\net10.0\Product.Domain.pdb
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\obj\Debug\net10.0\Product..7E280BC3.Up2Date
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\obj\Debug\net10.0\Product.Application.dll
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\obj\Debug\net10.0\refint\Product.Application.dll
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\obj\Debug\net10.0\Product.Application.pdb
+C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Application\obj\Debug\net10.0\ref\Product.Application.dll

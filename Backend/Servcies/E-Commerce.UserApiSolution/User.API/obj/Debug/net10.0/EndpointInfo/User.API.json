@@ -35,6 +35,18 @@
           }
         }
       }
+    },
+    "/secrets": {
+      "get": {
+        "tags": [
+          "User.API"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -58,6 +70,9 @@
   "tags": [
     {
       "name": "Auth"
+    },
+    {
+      "name": "User.API"
     }
   ]
 }
