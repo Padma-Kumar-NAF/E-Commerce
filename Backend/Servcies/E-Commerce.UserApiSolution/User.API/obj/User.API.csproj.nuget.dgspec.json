@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\User.API.csproj": {}
+    "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\User.API.csproj": {}
   },
   "projects": {
-    "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\User.API.csproj": {
+    "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\User.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\User.API.csproj",
+        "projectUniqueName": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\User.API.csproj",
         "projectName": "User.API",
-        "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\User.API.csproj",
-        "packagesPath": "C:\\Users\\PadmaKumar.C\\.nuget\\packages\\",
-        "outputPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\obj\\",
+        "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\User.API.csproj",
+        "packagesPath": "C:\\Users\\padma\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PadmaKumar.C\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\padma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj": {
-                "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj"
+              "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj": {
+                "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj"
               },
-              "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\User.Infrastructure.csproj": {
-                "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\User.Infrastructure.csproj"
+              "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\User.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\User.Infrastructure.csproj"
               }
             }
           }
@@ -51,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -107,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -525,20 +525,20 @@
         }
       }
     },
-    "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj": {
+    "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj",
+        "projectUniqueName": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj",
         "projectName": "User.Application",
-        "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj",
-        "packagesPath": "C:\\Users\\PadmaKumar.C\\.nuget\\packages\\",
-        "outputPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\obj\\",
+        "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj",
+        "packagesPath": "C:\\Users\\padma\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PadmaKumar.C\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\padma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -553,8 +553,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj": {
-                "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj"
+              "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj": {
+                "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj"
               }
             }
           }
@@ -569,7 +569,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -596,7 +596,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -874,20 +874,20 @@
         }
       }
     },
-    "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj": {
+    "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj",
+        "projectUniqueName": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj",
         "projectName": "User.Domain",
-        "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj",
-        "packagesPath": "C:\\Users\\PadmaKumar.C\\.nuget\\packages\\",
-        "outputPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\obj\\",
+        "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj",
+        "packagesPath": "C:\\Users\\padma\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PadmaKumar.C\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\padma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -914,7 +914,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -935,7 +935,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1213,20 +1213,20 @@
         }
       }
     },
-    "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\User.Infrastructure.csproj": {
+    "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\User.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\User.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\User.Infrastructure.csproj",
         "projectName": "User.Infrastructure",
-        "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\User.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\PadmaKumar.C\\.nuget\\packages\\",
-        "outputPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\obj\\",
+        "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\User.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\padma\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PadmaKumar.C\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\padma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1241,11 +1241,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj": {
-                "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj"
+              "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj": {
+                "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Application\\User.Application.csproj"
               },
-              "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj": {
-                "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj"
+              "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj": {
+                "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.UserApiSolution\\User.Domain\\User.Domain.csproj"
               }
             }
           }
@@ -1260,7 +1260,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -1309,7 +1309,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

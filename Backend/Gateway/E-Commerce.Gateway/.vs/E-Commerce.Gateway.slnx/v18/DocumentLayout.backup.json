@@ -1,41 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\PK\\E-Commerce\\Backend\\Gateway\\E-Commerce.Gateway\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9E7F2944-C10E-1CC5-D0A7-AA9333243DA4}|E-Commerce.Gateway\\E-Commerce.Gateway.csproj|c:\\pk\\e-commerce\\backend\\gateway\\e-commerce.gateway\\e-commerce.gateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9E7F2944-C10E-1CC5-D0A7-AA9333243DA4}|E-Commerce.Gateway\\E-Commerce.Gateway.csproj|solutionrelative:e-commerce.gateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Gateway\\E-Commerce.Gateway\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedHeight": 313,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\PK\\E-Commerce\\Backend\\Gateway\\E-Commerce.Gateway\\E-Commerce.Gateway\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "E-Commerce.Gateway\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\PK\\E-Commerce\\Backend\\Gateway\\E-Commerce.Gateway\\E-Commerce.Gateway\\Properties\\launchSettings.json",
-              "RelativeToolTip": "E-Commerce.Gateway\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-08T06:29:41.43Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

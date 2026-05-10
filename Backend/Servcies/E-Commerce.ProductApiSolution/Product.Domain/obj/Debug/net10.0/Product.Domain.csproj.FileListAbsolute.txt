@@ -10,3 +10,15 @@ C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\o
 C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\obj\Debug\net10.0\refint\Product.Domain.dll
 C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\obj\Debug\net10.0\Product.Domain.pdb
 C:\PK\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\obj\Debug\net10.0\ref\Product.Domain.dll
+D:\Projects\NAF\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\bin\Debug\net10.0\Product.Domain.deps.json
+D:\Projects\NAF\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\bin\Debug\net10.0\Product.Domain.dll
+D:\Projects\NAF\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\bin\Debug\net10.0\Product.Domain.pdb
+D:\Projects\NAF\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\obj\Debug\net10.0\Product.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\NAF\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\obj\Debug\net10.0\Product.Domain.AssemblyInfoInputs.cache
+D:\Projects\NAF\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\obj\Debug\net10.0\Product.Domain.AssemblyInfo.cs
+D:\Projects\NAF\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\obj\Debug\net10.0\Product.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\NAF\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\obj\Debug\net10.0\Product.Domain.sourcelink.json
+D:\Projects\NAF\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\obj\Debug\net10.0\Product.Domain.dll
+D:\Projects\NAF\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\obj\Debug\net10.0\refint\Product.Domain.dll
+D:\Projects\NAF\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\obj\Debug\net10.0\Product.Domain.pdb
+D:\Projects\NAF\E-Commerce\Backend\Servcies\E-Commerce.ProductApiSolution\Product.Domain\obj\Debug\net10.0\ref\Product.Domain.dll
