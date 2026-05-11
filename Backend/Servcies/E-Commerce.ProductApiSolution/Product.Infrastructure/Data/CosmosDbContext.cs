@@ -1,5 +1,6 @@
 ﻿using Microsoft.Azure.Cosmos;
 using Microsoft.Extensions.Configuration;
+using System.Net.Http;
 
 namespace Product.Infrastructure.Data
 {
@@ -18,7 +19,23 @@ namespace Product.Infrastructure.Data
             var containerName =
                 configuration["CosmosDb:ContainerName"];
 
-            CosmosClient client = new CosmosClient(connectionString);
+            // Configure CosmosClient options for emulator
+            var cosmosClientOptions = new CosmosClientOptions
+            {
+                HttpClientFactory = () =>
+                {
+                    HttpMessageHandler httpMessageHandler = new HttpClientHandler
+                    {
+                        ServerCertificateCustomValidationCallback = (req, cert, chain, errors) => true
+                    };
+
+                    return new HttpClient(httpMessageHandler);
+                },
+                ConnectionMode = ConnectionMode.Gateway,
+                LimitToEndpoint = true
+            };
+
+            CosmosClient client = new CosmosClient(connectionString, cosmosClientOptions);
 
             ProductsContainer = client.GetContainer(databaseName, containerName);
         }

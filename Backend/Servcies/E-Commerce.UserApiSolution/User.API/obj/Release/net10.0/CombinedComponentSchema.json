@@ -1381,5 +1381,5 @@
     }
   },
   "type": "object",
-  "SourceSegments": "C:\\Users\\PadmaKumar.C\\.nuget\\packages\\system.clientmodel\\1.10.0\\ConfigurationSchema.json;C:\\Users\\PadmaKumar.C\\.nuget\\packages\\azure.core\\1.54.0\\ConfigurationSchema.json;C:\\Users\\PadmaKumar.C\\.nuget\\packages\\azure.security.keyvault.secrets\\4.11.0\\ConfigurationSchema.json"
+  "SourceSegments": "C:\\Users\\padma\\.nuget\\packages\\system.clientmodel\\1.10.0\\ConfigurationSchema.json;C:\\Users\\padma\\.nuget\\packages\\azure.core\\1.54.0\\ConfigurationSchema.json;C:\\Users\\padma\\.nuget\\packages\\azure.security.keyvault.secrets\\4.11.0\\ConfigurationSchema.json"
 }

@@ -16,8 +16,7 @@ public class ProductRepository : IProductRepository
 
     public async Task<IEnumerable<ProductEntity>> GetAllProductsAsync()
     {
-        var query = _container.GetItemQueryIterator<ProductEntity>(
-            "SELECT * FROM c");
+        var query = _container.GetItemQueryIterator<ProductEntity>("SELECT * FROM c");
 
         List<ProductEntity> products = new();
 

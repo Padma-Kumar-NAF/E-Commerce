@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.API\\Order.API.csproj": {}
+    "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.API\\Order.API.csproj": {}
   },
   "projects": {
-    "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.API\\Order.API.csproj": {
+    "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.API\\Order.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.API\\Order.API.csproj",
+        "projectUniqueName": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.API\\Order.API.csproj",
         "projectName": "Order.API",
-        "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.API\\Order.API.csproj",
-        "packagesPath": "C:\\Users\\PadmaKumar.C\\.nuget\\packages\\",
-        "outputPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.API\\obj\\",
+        "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.API\\Order.API.csproj",
+        "packagesPath": "C:\\Users\\padma\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PadmaKumar.C\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\padma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj": {
-                "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj"
+              "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj": {
+                "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj"
               },
-              "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Infrastructure\\Order.Infrastructure.csproj": {
-                "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Infrastructure\\Order.Infrastructure.csproj"
+              "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Infrastructure\\Order.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Infrastructure\\Order.Infrastructure.csproj"
               }
             }
           }
@@ -51,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -91,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -509,20 +509,20 @@
         }
       }
     },
-    "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj": {
+    "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj",
+        "projectUniqueName": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj",
         "projectName": "Order.Application",
-        "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj",
-        "packagesPath": "C:\\Users\\PadmaKumar.C\\.nuget\\packages\\",
-        "outputPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\obj\\",
+        "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj",
+        "packagesPath": "C:\\Users\\padma\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PadmaKumar.C\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\padma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -537,8 +537,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj": {
-                "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj"
+              "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj": {
+                "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj"
               }
             }
           }
@@ -553,7 +553,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -574,7 +574,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -852,20 +852,20 @@
         }
       }
     },
-    "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj": {
+    "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj",
+        "projectUniqueName": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj",
         "projectName": "Order.Domain",
-        "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj",
-        "packagesPath": "C:\\Users\\PadmaKumar.C\\.nuget\\packages\\",
-        "outputPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\obj\\",
+        "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj",
+        "packagesPath": "C:\\Users\\padma\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PadmaKumar.C\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\padma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -892,7 +892,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -913,7 +913,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1191,20 +1191,20 @@
         }
       }
     },
-    "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Infrastructure\\Order.Infrastructure.csproj": {
+    "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Infrastructure\\Order.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Infrastructure\\Order.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Infrastructure\\Order.Infrastructure.csproj",
         "projectName": "Order.Infrastructure",
-        "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Infrastructure\\Order.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\PadmaKumar.C\\.nuget\\packages\\",
-        "outputPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Infrastructure\\obj\\",
+        "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Infrastructure\\Order.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\padma\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PadmaKumar.C\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\padma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1219,11 +1219,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj": {
-                "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj"
+              "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj": {
+                "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Application\\Order.Application.csproj"
               },
-              "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj": {
-                "projectPath": "C:\\PK\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj"
+              "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj": {
+                "projectPath": "D:\\Projects\\NAF\\E-Commerce\\Backend\\Servcies\\E-Commerce.OrderApiSolution\\Order.Domain\\Order.Domain.csproj"
               }
             }
           }
@@ -1238,7 +1238,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -1275,7 +1275,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
